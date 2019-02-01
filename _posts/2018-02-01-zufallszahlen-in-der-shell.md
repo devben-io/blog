@@ -1,5 +1,5 @@
 ---
-title: "CLI | Zufallszahlen in der Shell"
+title: "CLI - Zufallszahlen in der Shell"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

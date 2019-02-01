@@ -1,5 +1,5 @@
 ---
-title: "CLI | fuzzy finder (fzf)"
+title: "CLI - fuzzy finder (fzf)"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -18,7 +18,7 @@ add the following lines to your `.bashrc` / `.zshrc` :
 
 function ssh2 () {
 filter=${1:-"."}
-target=$(egrep -o "Host (\b.+\b)" $HOME/.ssh/extras/* $HOME/.ssh/config | awk '{print $2}' | grep $filter | fzf -e)
+target=$(egrep -o "Host (\b.+\b)" $HOME/.ssh/extras/* $HOME/.ssh/config - awk '{print $2}' - grep $filter - fzf -e)
 echo "Remoting into: $target"
 ssh $target
 }

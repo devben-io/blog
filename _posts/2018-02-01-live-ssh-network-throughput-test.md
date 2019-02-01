@@ -1,5 +1,5 @@
 ---
-title: "CLI | live ssh network throughput test"
+title: "CLI - live ssh network throughput test"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -13,7 +13,7 @@ tags:
 
 
 ```
-yes | pv | ssh <USER>@<HOST> "cat > /dev/null"
+yes - pv - ssh <USER>@<HOST> "cat > /dev/null"
 ```
 
 ## Weblinks {#weblinks}

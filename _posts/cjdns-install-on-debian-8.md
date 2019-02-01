@@ -8,7 +8,7 @@ tags:
 ---
 
 
-# CJDNS \| install on Debian 8
+# CJDNS - install on Debian 8
 
 ```
 #Dependency

@@ -1,5 +1,5 @@
 ---
-title: "CLI | PDFs scannen"
+title: "CLI - PDFs scannen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

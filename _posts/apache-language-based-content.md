@@ -8,7 +8,7 @@ tags:
 ---
 
 
-# Apache \| Language based content
+# Apache - Language based content
 
 ## Links:
 

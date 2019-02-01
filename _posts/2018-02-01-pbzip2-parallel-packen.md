@@ -1,5 +1,5 @@
 ---
-title: "CLI | pbzip2 - parallel packen"
+title: "CLI - pbzip2 - parallel packen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -20,7 +20,7 @@ tar vcf myfile.tbz2 --use-compress-prog=pbzip2 dir_to_compress/
 ODER
 
 ```
-tar -vc directory_to_compress/ | pbzip2 -vc > myfile.tar.bz2
+tar -vc directory_to_compress/ - pbzip2 -vc > myfile.tar.bz2
 ```
 
 #### Auspacken: {#auspacken}
@@ -28,7 +28,7 @@ tar -vc directory_to_compress/ | pbzip2 -vc > myfile.tar.bz2
 \(muss ge„pipe“t werden\)
 
 ```
-pbzip2pbzip2 -dck <bz2file> | tar xvf -
+pbzip2pbzip2 -dck <bz2file> - tar xvf -
 ```
 
 ## Links {#links}

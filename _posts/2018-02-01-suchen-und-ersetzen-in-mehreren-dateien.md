@@ -1,5 +1,5 @@
 ---
-title: "CLI | Suchen und Ersetzen in mehreren Dateien"
+title: "CLI - Suchen und Ersetzen in mehreren Dateien"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

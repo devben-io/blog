@@ -1,5 +1,5 @@
 ---
-title: "CLI | Weather Report in terminal"
+title: "CLI - Weather Report in terminal"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

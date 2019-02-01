@@ -1,5 +1,5 @@
 ---
-title: "FreeBSD | Docker"
+title: "FreeBSD - Docker"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

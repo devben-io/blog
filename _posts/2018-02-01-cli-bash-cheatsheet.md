@@ -1,5 +1,5 @@
 ---
-title: "CLI | Bash cheatsheet"
+title: "CLI - Bash cheatsheet"
 categories:
 
 tags:

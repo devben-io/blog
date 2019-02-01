@@ -1,5 +1,5 @@
 ---
-title: "CLI | Text highlighten mit grep (ohne zu Filtern)"
+title: "CLI - Text highlighten mit grep (ohne zu Filtern)"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -16,7 +16,7 @@ $ grep --color -E '^|pattern1|pattern2' file name
 Oder:
 
 ```
-$ <command_here> | grep --color -E '^|pattern1|pattern2'
+$ <command_here> - grep --color -E '^|pattern1|pattern2'
 ```
 
 ## Weblinks {#weblinks}

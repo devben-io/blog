@@ -1,5 +1,5 @@
 ---
-title: "CLI | tar mit Progressbar"
+title: "CLI - tar mit Progressbar"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -14,7 +14,7 @@ tags:
 * mittels `du` wird die Größe des Verzeichnisses ermittelt
 
 ```
-tar -cf - . | pv -s $(du -sb . | awk '{print $1}') | gzip > out.tgz
+tar -cf - . - pv -s $(du -sb . - awk '{print $1}') - gzip > out.tgz
 ```
 
 ## Weblinks {#weblinks}

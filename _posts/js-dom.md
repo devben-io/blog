@@ -8,7 +8,7 @@ tags:
 ---
 
 
-# JS \| DOM
+# JS - DOM
 
 
 

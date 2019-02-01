@@ -1,5 +1,5 @@
 ---
-title: "CLI | SSH Cheatsheet"
+title: "CLI - SSH Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

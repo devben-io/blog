@@ -1,5 +1,5 @@
 ---
-title: "CLI | Suchen und Löschen in der Konsole"
+title: "CLI - Suchen und Löschen in der Konsole"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

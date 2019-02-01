@@ -1,5 +1,5 @@
 ---
-title: "FreeBSD | Tinc"
+title: "FreeBSD - Tinc"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "pfSense | LACP & Jumbo Frames"
+title: "pfSense - LACP & Jumbo Frames"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -20,10 +20,10 @@ tags:
 * `Shellcmd`Paket nachinstallieren und danach folgende Kommandos in der WebGUI eintragen:
 
 
-| Command | Type |
-| :--- | :--- |
-| `ifconfig re1 mtu 9000 up; echo "re1: mtu 1500 -> 9000"` | earlyshellcmd |
-| `ifconfig re2 mtu 9000 up; echo "re2: mtu 1500 -> 9000"` | earlyshellcmd |
+| Command - Type |
+| :--- - :--- |
+| `ifconfig re1 mtu 9000 up; echo "re1: mtu 1500 -> 9000"` - earlyshellcmd |
+| `ifconfig re2 mtu 9000 up; echo "re2: mtu 1500 -> 9000"` - earlyshellcmd |
 
 
 

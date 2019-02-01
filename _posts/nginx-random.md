@@ -8,7 +8,7 @@ tags:
 ---
 
 
-# NGINX \| Random
+# NGINX - Random
 
 
 

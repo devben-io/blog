@@ -1,5 +1,5 @@
 ---
-title: "FreeBSD | Cheatsheet"
+title: "FreeBSD - Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -51,7 +51,7 @@ sysctl net.inet.tcp.delayed_ack=0       ## disable delayed ack in tcp
 
 ```
 top                                     ## display and update information about the top cpu processes
-ps auxwww | grep <processname>          ## display process status
+ps auxwww - grep <processname>          ## display process status
 CTRL-t                                  ## on running commands will output useful info
 systat -vmstat 1                        ## show general overview of load, memory, interrupts, disk io
 systat -iostat 1                        ## show disk throughput
@@ -73,7 +73,7 @@ zfs destroy <pool>/<dataset>@name       ## destroy a snapshot
 zfs set <key>=<val> <pool>/<dataset>    ## generic way of setting options on a given dataset
 zfs set compression=lz4 tank/var/log    ## enable LZ4 compression on /var/logs
 zfs get compressratio <pool>/<dataset>  ## show the current compression ratio of a dataset
-zfs send -R tank@snapshot | \           ## send all datasets@snapshot recursively to another host
+zfs send -R tank@snapshot - \           ## send all datasets@snapshot recursively to another host
 ssh root@[IP] zfs recv -F tank
 zfs unmount <pool>/<dataset>            ## unmount a zfs dataset
 zfs upgrade -r <pool>                   ## upgrade all volumes in the pool (technically its the root volume e.g. tank)
@@ -94,7 +94,7 @@ portsnap update                         ## update the portfiles on disk with the
 portsnap update -p /usr/jails/basejail/usr/ports ## update ports tree for jails
 whereis <portname>                      ## show the directory of the portfile
 cd /usr/ports/*/<portname>              ## find the parent directory of a given portname
-locate <portname> | grep ports          ## manual way of searching for ports
+locate <portname> - grep ports          ## manual way of searching for ports
 cd <portdir> && make install            ## compile and install a port
 cd <portdir> && make config             ## re-run configuration of a port when available
 cd <portdir> && sudo make deinstall clean reinstall ## upgrade the port
@@ -144,7 +144,7 @@ netstat -Lan                            ## display status of listen queues
 netstat -s                              ## display extensive statistics per protocol (use -p tcp to only show tcp)
 sockstat -l                             ## display listening sockets, process names and pids
 sysctl kern.ipc.numopensockets          ## display number of open sockets
-vmstat -z | egrep "ITEM|tcpcb"          ## number of hash table buckets to handle incoming tcp connections
+vmstat -z - egrep "ITEM|tcpcb"          ## number of hash table buckets to handle incoming tcp connections
                                           increase net.inet.tcp.tcbhashsize if hitting the limit
 sysctl net.inet.tcp.hostcache.list      ## display current content of hostcache with its parameters per IP
 ```
