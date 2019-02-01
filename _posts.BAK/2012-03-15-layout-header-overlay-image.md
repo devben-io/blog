@@ -1,7 +1,7 @@
 ---
 title: "Layout: Header Image Overlay"
 header:
-  teaser: /assets/images/unsplash-image-1.jpg
+#  teaser: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Call to action 1"
@@ -33,7 +33,7 @@ You can use it by specifying the opacity (between 0 and 1) of a black overlay li
 ```yaml
 excerpt: "This post should [...]"
 header:
-  teaser: /assets/images/unsplash-image-1.jpg
+#  teaser: /assets/images/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -48,7 +48,7 @@ Or if you want to do more fancy things, go full rgba:
 ```yaml
 excerpt: "This post should [...]"
 header:
-  teaser: /assets/images/unsplash-image-1.jpg
+#  teaser: /assets/images/unsplash-image-1.jpg
   overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
