@@ -5,7 +5,7 @@ layout: posts
 author_profile: true
 ---
 
-[Posts by Tags](/blog/tags/)  |  [Posts by Categories](/blog/categories/)
+[Posts by Tags](/blog/tags/)  |  [Posts by Categories](/blog/category/)
 
 
 #  Posts by Year
