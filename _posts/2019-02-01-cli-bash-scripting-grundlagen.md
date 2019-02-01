@@ -1,4 +1,14 @@
-# CLI \| Bash Scripting Grundlagen
+---
+title: "CLI \| Bash Scripting Grundlagen"
+excerpt_separator: "<!--more-->"
+categories:
+  - HowTo
+  - DE
+tags:
+  - bash
+  - CLI
+---
+
 
 **Skriptbeispiele.**
 

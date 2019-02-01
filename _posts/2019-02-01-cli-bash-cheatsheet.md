@@ -1,4 +1,14 @@
-# CLI \| Bash cheatsheet
+---
+title: "CLI \| Bash cheatsheet"
+excerpt_separator: "<!--more-->"
+categories:
+  - HowTo
+  - EN
+tags:
+  - bash
+  - CLI
+---
+
 
 Assign multi-line string to a shell variable or file
 
