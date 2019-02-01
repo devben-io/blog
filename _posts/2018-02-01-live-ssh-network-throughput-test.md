@@ -21,11 +21,11 @@ header:
   #     url: "https://unsplash.com"
 ---
 
-
+<!--more-->
 ```
 yes - pv - ssh <USER>@<HOST> "cat > /dev/null"
 ```
-<!--more-->
+
 ## Weblinks {#weblinks}
 
 * [https://blog.urfix.com/9-tricks-pv-pipe-viewer/](https://blog.urfix.com/9-tricks-pv-pipe-viewer/)
