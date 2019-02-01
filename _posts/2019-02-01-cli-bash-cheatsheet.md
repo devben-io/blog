@@ -1,6 +1,5 @@
 ---
-title: "CLI \| Bash cheatsheet"
-excerpt_separator: "<!--more-->"
+title: "CLI | Bash cheatsheet"
 categories:
   - HowTo
   - EN
