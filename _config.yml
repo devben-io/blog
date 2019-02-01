@@ -278,7 +278,7 @@ defaults:
       type: posts
     values:
       layout: single
-      class: wide
+      classes: wide
       author_profile: true
       read_time: true
       share: false
