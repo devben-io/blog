@@ -1,7 +1,7 @@
 ---
 title: "Post: Overlay Image with OpenGraph Override"
 header:
-  teaser: /assets/images/unsplash-image-1.jpg
+#  teaser: /assets/images/unsplash-image-1.jpg
   og_image: /assets/images/page-header-og-image.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -21,7 +21,7 @@ This post has a header image with an OpenGraph override.
 
 ```yaml
 header:
-  teaser: /assets/images/unsplash-image-1.jpg
+#  teaser: /assets/images/unsplash-image-1.jpg
   og_image: /assets/images/page-header-og-image.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
