@@ -2,6 +2,7 @@
 title: "Apache Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - apache
   - web

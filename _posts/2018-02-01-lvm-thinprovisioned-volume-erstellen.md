@@ -2,6 +2,7 @@
 title: "CLI - create LVM thinprovisioned Volumes"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - CLI
   - EN

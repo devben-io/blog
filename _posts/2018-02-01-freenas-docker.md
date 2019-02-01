@@ -2,6 +2,7 @@
 title: "FreeBSD - Docker"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - EN
   - docker

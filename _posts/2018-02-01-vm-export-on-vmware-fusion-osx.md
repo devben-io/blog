@@ -2,6 +2,7 @@
 title: "VM export on VMware Fusion (OSX)"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - vm
   - vmware

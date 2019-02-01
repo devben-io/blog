@@ -2,6 +2,7 @@
 title: "FreeBSD - Tinc"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - EN
   - vpn

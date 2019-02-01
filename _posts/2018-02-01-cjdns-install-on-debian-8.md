@@ -2,6 +2,7 @@
 title: "CJDNS - install on Debian 8"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - EN
   - network

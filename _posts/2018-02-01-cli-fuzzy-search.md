@@ -2,6 +2,7 @@
 title: "CLI - fuzzy finder (fzf)"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - CLI
   - EN

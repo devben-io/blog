@@ -1,6 +1,7 @@
 ---
 title: "CLI - Bash cheatsheet"
 categories:
+  - EN
 
 tags:
   - bash

@@ -2,6 +2,7 @@
 title: "CLI - Renice Process and all child processes"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - CLI
   - EN

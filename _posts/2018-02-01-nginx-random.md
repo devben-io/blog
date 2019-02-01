@@ -2,6 +2,7 @@
 title: "NGINX - Random"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - nginx
   - web

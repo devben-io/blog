@@ -2,6 +2,7 @@
 title: "Apache - Language based content"
 excerpt_separator: "<!--more-->"
 categories:
+  - EN
 tags:
   - EN
   - links
