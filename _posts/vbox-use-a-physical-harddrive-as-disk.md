@@ -1,4 +1,4 @@
-# VBOX \| use a physical harddrive as disk
+# VBOX - use a physical harddrive as disk
 
 ## Links
 

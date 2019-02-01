@@ -1,4 +1,4 @@
-# YAML \| Cheatsheet
+# YAML - Cheatsheet
 
 ## YAML 1.1: Reference card
 ---

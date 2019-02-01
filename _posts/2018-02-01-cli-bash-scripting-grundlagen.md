@@ -137,7 +137,7 @@ Mehrfachselektionen können mit case abgehandelt werden. Die Besonderheit ist da
 
 
 
-## Einfache While-Wiederholung \(Schleife\)
+## Einfache While-Wiederholung (Schleife)
 
 ```
 #! /bin/bash

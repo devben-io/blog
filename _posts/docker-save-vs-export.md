@@ -1,4 +1,4 @@
-# DOCKER \| save vs. export
+# DOCKER - save vs. export
 
 ## Link:
 

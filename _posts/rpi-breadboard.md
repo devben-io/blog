@@ -1,4 +1,4 @@
-# RPI \|  Breadboard
+# RPI -  Breadboard
 
 ![](https://web.archive.org/web/20180316084257im_/https://www.w3schools.com/nodejs/img_breadboard_connections.png)
 

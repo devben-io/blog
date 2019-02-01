@@ -1,4 +1,4 @@
-# SALT \| install salt with salt-ssh {#salt_salt_mit_salt-ssh_installieren}
+# SALT - install salt with salt-ssh {#salt_salt_mit_salt-ssh_installieren}
 
 ## Weblinks {#weblinks}
 

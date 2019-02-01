@@ -1,4 +1,4 @@
-# DOCKER \| minimum image
+# DOCKER - minimum image
 
 ## Links:
 

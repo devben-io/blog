@@ -1,4 +1,4 @@
-# GIT \| Sync Fork from upstream Repo
+# GIT - Sync Fork from upstream Repo
 
 #### Add the Remote Upstream Repository
 

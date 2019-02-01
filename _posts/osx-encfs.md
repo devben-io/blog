@@ -1,4 +1,4 @@
-# OSX \| encfs
+# OSX - encfs
 
 
 

@@ -1,17 +1,17 @@
-# RPI \| Multiroom-Audio \(synchron\) 
+# RPI - Multiroom-Audio (synchron) 
 
-Volumio \(mpd\) + SpotifyConnect +Snapcast\(+ Shariplay\)  
-\(geht bestimmt auch mit RuneAudio\)
+Volumio (mpd) + SpotifyConnect +Snapcast(+ Shariplay)  
+(geht bestimmt auch mit RuneAudio)
 
 ## Features {#features}
 
-Multiroom-Wiedergabe \(synchrone Wiedergabe auf mehreren Lautsprechern\) von
+Multiroom-Wiedergabe (synchrone Wiedergabe auf mehreren Lautsprechern) von
 
-* lokalen Medien \(mpd\)
+* lokalen Medien (mpd)
 * Streams von
   * Webradios
-  * Spotify \(SpotifyConnect\)
-  * Airplay \(shairplay\)
+  * Spotify (SpotifyConnect)
+  * Airplay (shairplay)
 
 ## Setup
 
@@ -72,7 +72,7 @@ Spotify        NAS/Webradio/etc.
 
 ## Server
 
-_\(datt Ding, wo die Musik reinkommen tut…\)_
+_(datt Ding, wo die Musik reinkommen tut…)_
 
 ### Voraussetzung
 
@@ -163,10 +163,10 @@ SNAPSERVER_OPTS="-d -s pipe:///tmp/snapfifo-room_1?name=room_1&sampleformat=4800
 
 #### Spotify Key beantragen
 
-_\(geht nur mir einen Spotify Premiumaccount\)_
+_(geht nur mir einen Spotify Premiumaccount)_
 
 * einloggen unter: [https://devaccount.spotify.com/my-account/keys/](https://devaccount.spotify.com/my-account/keys/)
-* eine „App“ anlegen und App-Key als „**Binary**“ herunterladen \(`spotify_appkey.key`\)
+* eine „App“ anlegen und App-Key als „**Binary**“ herunterladen (`spotify_appkey.key`)
 
 #### Spotify installieren
 
@@ -205,7 +205,7 @@ rm -Rfv /root/spotify-connect-web-chroot/tmp/snapfifo
 mknod /root/spotify-connect-web-chroot/tmp/snapfifo p
 ```
 
-#### asound.conf \(chroot\) anlegen
+#### asound.conf (chroot) anlegen
 
 Spotify wird ja in einer eigenen chroot ausgeführt.
 
@@ -253,7 +253,7 @@ Um das_„echte“_`/tmp`-Verzeichnis in der chroot verfügbar zu machen, ergän
 
 ####  {#testen_spotifyconnect_starten}
 
-#### Testen \(SpotifyConnect starten\)
+#### Testen (SpotifyConnect starten)
 
 ```
 /root/spotify-connect-web.sh --username <NAME> --password <GEHEIM> --bitrate 320 --name <USER>s_Volumio -o <USER>
@@ -318,13 +318,13 @@ systemctl restart spotify-connect-<USER>.service
 
 ---
 
-## Client\(s\)
+## Client(s)
 
-_\(die Dinger, wo die Musik rauskommen tut…\)_
+_(die Dinger, wo die Musik rauskommen tut…)_
 
 ### Voraussetzung {#voraussetzung1}
 
-* raspian \(Debian 8 minimal\)
+* raspian (Debian 8 minimal)
 * optional: Filesystem vergrößern:
 
 ```
@@ -380,7 +380,7 @@ WPA-Supplicant installieren:
 apt-get install wpasupplicant
 ```
 
-Interface anpassen \(Inhalt hinzufügen\):
+Interface anpassen (Inhalt hinzufügen):
 
 `/etc/network/interfaces`
 

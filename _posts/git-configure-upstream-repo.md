@@ -1,4 +1,4 @@
-# GIT \| configure upstream repo for a Fork
+# GIT - configure upstream repo for a Fork
 
 ## Links:
 

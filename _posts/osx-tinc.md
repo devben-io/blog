@@ -1,4 +1,4 @@
-# OSX \| tinc
+# OSX - tinc
 
 ## Links
 

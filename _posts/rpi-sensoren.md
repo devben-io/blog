@@ -1,4 +1,4 @@
-# RPI \| Sensoren
+# RPI - Sensoren
 
 ## DHT11 / DH22 - Luftfeuchtigkeits-, Temperatur Sensor
 
@@ -8,7 +8,7 @@
 * [https://klenzel.de/5793](https://klenzel.de/5793)
 * [https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/](https://www.raspberrypi-spy.co.uk/2017/09/dht11-temperature-and-humidity-sensor-raspberry-pi/)
 
-## DS18B20 - Temperatur Sensor \(wasserdicht\)
+## DS18B20 - Temperatur Sensor (wasserdicht)
 
 * [https://www.amazon.de/Temperatur-Interface-Temperatursensor-wasserdicht-Edelstahlhülse/dp/B018GQN5HE/ref=sr\_1\_9?ie=UTF8&qid=1520318960&sr=8-9&keywords=DS18B20](#)
 * [https://codingworld.io/shop/ds18b20-one-wire-temperatursensor-outdoor](#)

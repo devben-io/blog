@@ -1,4 +1,4 @@
-# HOWTO \|  Gitbook - build static page
+# HOWTO -  Gitbook - build static page
 
 ## Voraussetzungen
 

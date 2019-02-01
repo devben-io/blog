@@ -1,8 +1,8 @@
-# OSX \| install on a bootable USB Stick
+# OSX - install on a bootable USB Stick
 
 * Download "**Install macOS High Sierra.app**" from Appstore.
   * it's Stub File that must download the install data during the install process
-* Start Installation process - choose a drive with enough space for the install data \(~5GB\)
+* Start Installation process - choose a drive with enough space for the install data (~5GB)
 
 * **don't** restart the Computer after the download has finished
 
@@ -19,7 +19,7 @@ sudo rsync -harP "/Volumes/<ABC>/macOS Install Data/" "/Applications/Install mac
 sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/<USB-STICK>
 ```
 
-* \(if needed\) confirm questions with `y` \(yes\)
+* (if needed) confirm questions with `y` (yes)
 
 ## Links:
 

@@ -1,4 +1,4 @@
-# DOCKER \| SSH and Gogs
+# DOCKER - SSH and Gogs
 
 ## Links:
 

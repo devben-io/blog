@@ -1,4 +1,4 @@
-# GIT \| force pull to overwrite local files
+# GIT - force pull to overwrite local files
 
 ```
 git fetch --all

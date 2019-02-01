@@ -1,10 +1,10 @@
-# Client\(s\)
+# Client(s)
 
-_\(die Dinger, wo die Musik rauskommen tut…\)_
+_(die Dinger, wo die Musik rauskommen tut…)_
 
 ### Voraussetzung {#voraussetzung1}
 
-* raspian \(Debian 8 minimal\)
+* raspian (Debian 8 minimal)
 * optional: Filesystem vergrößern:
 
 ```
@@ -60,7 +60,7 @@ WPA-Supplicant installieren:
 apt-get install wpasupplicant
 ```
 
-Interface anpassen \(Inhalt hinzufügen\):
+Interface anpassen (Inhalt hinzufügen):
 
 `/etc/network/interfaces`
 

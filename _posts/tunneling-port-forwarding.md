@@ -1,10 +1,10 @@
-# Tunneling / Port Forwarding \(EN\) {#tunnelingport_forwarding_en}
+# Tunneling / Port Forwarding (EN) {#tunnelingport_forwarding_en}
 
 ## Introduction {#introduction}
 
 ### 1. local: {#local}
 
-* `-L`Specifies that the given port on the local \(client\) host is to be forwarded to the given host and port on the remote side.
+* `-L`Specifies that the given port on the local (client) host is to be forwarded to the given host and port on the remote side.
 * `ssh -L sourcePort:forwardToHost:onPort`connectToHost means: connect with ssh to`connectToHost`, and forward all connection attempts to the **local **`sourcePort`to port`onPort`on the machine called`forwardToHost`, which can be reached from the`connectToHost`machine.
 
 `ssh -L 123:localhost:456 remotehost`
@@ -31,7 +31,7 @@
 
 ### 2. remote: {#remote}
 
-* `-R`Specifies that the given port on the remote \(server\) host is to be forwarded to the given host and port on the local side.
+* `-R`Specifies that the given port on the remote (server) host is to be forwarded to the given host and port on the local side.
 * `ssh -R sourcePort:forwardToHost:onPort` `connectToHost` means: connect with ssh to`connectToHost`, and forward all connection attempts to the **remote **`sourcePort`to port `onPort`on the machine called `forwardToHost`, which can be reached from your`local`machine.
 
 `ssh -R 456:localhost:123 remotehost`
@@ -84,7 +84,7 @@ ssh -R 80:localhost:30280 tinyserver2
 etc.
 ```
 
-Or maybe your machine is only the connection between the powerful and the small servers. Then it would be \(for one of the tinyservers that play to have their own webservers\):
+Or maybe your machine is only the connection between the powerful and the small servers. Then it would be (for one of the tinyservers that play to have their own webservers):
 
 ```
 ssh -R 80:SUPERSERVER:30180 tinyserver1

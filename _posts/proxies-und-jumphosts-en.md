@@ -1,4 +1,4 @@
-# Proxies und Jumphosts \(en\) {#proxies_und_jumphosts_en}
+# Proxies und Jumphosts (en) {#proxies_und_jumphosts_en}
 
 _Passing through a gateway or two_  
 

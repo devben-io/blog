@@ -8,7 +8,7 @@
 
   * DB GUI für Oracle, PostgreSQL & more
 
-* Mindmap - Xmind \(Mac\)
+* Mindmap - Xmind (Mac)
 
   * [http://www.xmind.net/de/xmind8-pro/](http://www.xmind.net/de/xmind8-pro/)
 

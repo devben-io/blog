@@ -1,4 +1,4 @@
-# SALT \| Cheatsheet {#salt_cheatsheet}
+# SALT - Cheatsheet {#salt_cheatsheet}
 
 ## Daily Sysadmin Stuff
 

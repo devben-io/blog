@@ -1,4 +1,4 @@
-# SALT \| Pillars
+# SALT - Pillars
 
 ## Weblinks {#weblinks}
 

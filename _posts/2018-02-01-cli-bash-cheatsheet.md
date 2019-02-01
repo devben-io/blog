@@ -40,7 +40,7 @@ run last command
 !!
 ```
 
-\(in a bash script\) force the script to fail, if any sub-command causes a non-zero exit code
+(in a bash script) force the script to fail, if any sub-command causes a non-zero exit code
 
 ```
 set -e

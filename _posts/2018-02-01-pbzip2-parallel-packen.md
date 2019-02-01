@@ -25,7 +25,7 @@ tar -vc directory_to_compress/ - pbzip2 -vc > myfile.tar.bz2
 
 #### Auspacken: {#auspacken}
 
-\(muss ge„pipe“t werden\)
+(muss ge„pipe“t werden)
 
 ```
 pbzip2pbzip2 -dck <bz2file> - tar xvf -

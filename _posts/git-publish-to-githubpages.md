@@ -1,4 +1,4 @@
-# CI \| Publish to Github Pages
+# CI - Publish to Github Pages
 
 ## Links
 

@@ -12,8 +12,8 @@ tags:
 
 #### Problem {#problem}
 
-* will man die MTU bei einem LAGG-Interface z.b. auf`9000`setzen, hat man das Problem, dass die MTU bei den LAGG-Mitgliedern \(physiche Interfaces\) nicht auch automatisch geändert werden.
-* man kann dies händisch z.B. mit`ifconfig re1 mtu 9000 up`machen → bekommt aber Fehlermeldungen bzw. die Änderungen sind nach dem Neustart _weg_. \(nicht peristent\)
+* will man die MTU bei einem LAGG-Interface z.b. auf`9000`setzen, hat man das Problem, dass die MTU bei den LAGG-Mitgliedern (physiche Interfaces) nicht auch automatisch geändert werden.
+* man kann dies händisch z.B. mit`ifconfig re1 mtu 9000 up`machen → bekommt aber Fehlermeldungen bzw. die Änderungen sind nach dem Neustart _weg_. (nicht peristent)
 
 #### Lösung {#loesung}
 

@@ -1,17 +1,17 @@
-# RPI \| Multiroom-Audio \(synchron\) {#rpi_multiroom-audio_synchron}
+# RPI - Multiroom-Audio (synchron) {#rpi_multiroom-audio_synchron}
 
-Volumio \(mpd\) + SpotifyConnect +Snapcast\(+ Shariplay\)  
-\(geht bestimmt auch mit RuneAudio\)
+Volumio (mpd) + SpotifyConnect +Snapcast(+ Shariplay)  
+(geht bestimmt auch mit RuneAudio)
 
 ## Features {#features}
 
-Multiroom-Wiedergabe \(synchrone Wiedergabe auf mehreren Lautsprechern\) von
+Multiroom-Wiedergabe (synchrone Wiedergabe auf mehreren Lautsprechern) von
 
-* lokalen Medien \(mpd\)
+* lokalen Medien (mpd)
 * Streams von
   * Webradios
-  * Spotify \(SpotifyConnect\)
-  * Airplay \(shairplay\)
+  * Spotify (SpotifyConnect)
+  * Airplay (shairplay)
 
 ## Setup
 

@@ -1,4 +1,4 @@
-# SALT \| Creating hashed passwords
+# SALT - Creating hashed passwords
 
 ```
 salt '*' shadow.gen_password 'I_am_password'

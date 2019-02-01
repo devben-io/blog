@@ -1,4 +1,4 @@
-# GIT \| Subtrees
+# GIT - Subtrees
 
 ## Setup
 

@@ -1,4 +1,4 @@
-# NIX \| install on Mac
+# NIX - install on Mac
 
 
 

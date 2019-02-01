@@ -1,4 +1,4 @@
-# SALT \| custom header in files und directories {#salt_header_in_dateien_und_verzeichnissen}
+# SALT - custom header in files und directories {#salt_header_in_dateien_und_verzeichnissen}
 
 ## Weblinks {#weblinks}
 

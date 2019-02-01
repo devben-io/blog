@@ -1,4 +1,4 @@
-# DOCKER \| Logging
+# DOCKER - Logging
 
 ## Logspout 
 

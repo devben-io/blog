@@ -1,4 +1,4 @@
-# GIT \| Forking
+# GIT - Forking
 
 ## Links:
 

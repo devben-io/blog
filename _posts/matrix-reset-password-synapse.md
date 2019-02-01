@@ -1,4 +1,4 @@
-# MATRIX \| reset password \(synapse\)
+# MATRIX - reset password (synapse)
 
 ## SQLite
 

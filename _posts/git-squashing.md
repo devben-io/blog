@@ -1,4 +1,4 @@
-# GIT \| Rebase \(squashing\)
+# GIT - Rebase (squashing)
 
 When branching off of master or development the changes need to be merged back into the original branch.
 
@@ -9,7 +9,7 @@ git checkout develop
 git checkout -b feat/dockerize
 ```
 
-List the number of commits done on your feature branch \(required for squashing them with rebase\):
+List the number of commits done on your feature branch (required for squashing them with rebase):
 
 ```
 git rev-list --count HEAD ^develop
@@ -33,7 +33,7 @@ e892cf4  Tue Jul 3 20:33:04 2018 +0200 (9 weeks ago)     User 3: sort reference 
 8aeec86  Tue Jun 26 07:31:37 2018 +0200 (10 weeks ago)   User 3: added accept attribute to file uploads
 ```
 
-Starting from HEAD \(the last commit, index 0\) we want to squash the commits HEAD-7:
+Starting from HEAD (the last commit, index 0) we want to squash the commits HEAD-7:
 
 ```
 git rebase -i head~7

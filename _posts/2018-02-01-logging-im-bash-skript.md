@@ -9,7 +9,7 @@ tags:
 ---
 
 
-folgendes Codeschnipsel am Anfang vom Skript bewirkt, dass die komplette Bildschirmausgabe \(auch remote-Sessions\) ins Logfile geschrieben wird.
+folgendes Codeschnipsel am Anfang vom Skript bewirkt, dass die komplette Bildschirmausgabe (auch remote-Sessions) ins Logfile geschrieben wird.
 
 ```bash
 [...]

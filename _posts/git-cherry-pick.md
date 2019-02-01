@@ -1,4 +1,4 @@
-# GIT \| Cherry-Pick
+# GIT - Cherry-Pick
 
 ## Links:
 
