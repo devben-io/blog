@@ -8,13 +8,13 @@ tags:
 ---
 
 
-# JS - DOM
+# bind mount
 
 
 
 ## Links
 
-* https://wiki.selfhtml.org/wiki/JavaScript/DOM
+* https://unix.stackexchange.com/questions/198590/what-is-a-bind-mount
 
 
 

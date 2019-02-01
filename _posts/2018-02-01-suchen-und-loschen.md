@@ -2,9 +2,18 @@
 title: "CLI - Suchen und Löschen in der Konsole"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE
+excerpt: ""
+header:
+  overlay_image: /assets/images/unsplash-code-01-500.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#  actions:
+#    - label: "More Info"
+#      url: "https://unsplash.com"
 ---
 
 Dieses Vorgehen benutzt man, um bestimmte Dateien zu suchen und gleichzeitig auch zu löschen.
@@ -17,7 +26,7 @@ find <dir-name> <criteria> <action>
 
 * `dir-name`: - Defines the working directory such as look into /tmp/
 * `criteria`: Use to select files such as „\*.sh“
-* `action`: The find action \(what-to-do on file\) such as delete the file.
+* `action`: The find action (what-to-do on file) such as delete the file.
 
 jetzt genauer:  
 löscht Dateien\_und\_Ordner:

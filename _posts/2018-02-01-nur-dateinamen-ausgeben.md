@@ -2,13 +2,22 @@
 title: "CLI - nur Dateinamen ausgeben"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE
+excerpt: ""
+header:
+  overlay_image: /assets/images/unsplash-code-01-500.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+#  actions:
+#    - label: "More Info"
+#      url: "https://unsplash.com"
 ---
 
 
-Folgende CLI Magic ermöglicht es aus einem`<OUTPUT>`/ einem Dateipfad mit variabler Verzeichnistiefe \(z.B.`/irgend/ein/Pfad/zu/einer/<DATEI>.<ENDUNG>`\) , nur die`<DATEI>.<ENDUNG>`herauszufiltern. \(z.B wenn `basename` nicht zur Verfügung steht\)
+Folgende CLI Magic ermöglicht es aus einem`<OUTPUT>`/ einem Dateipfad mit variabler Verzeichnistiefe (z.B.`/irgend/ein/Pfad/zu/einer/<DATEI>.<ENDUNG>`) , nur die`<DATEI>.<ENDUNG>`herauszufiltern. (z.B wenn `basename` nicht zur Verfügung steht)
 
 ## Möglichkeit 1 {#moeglichkeit_1}
 
@@ -20,9 +29,9 @@ von der Ausgabe wird die Zeichenfolge mit`rev`umgedreht. Dadurch ist das letzte`
 
 ## Möglichkeit 2 {#moeglichkeit_2}
 
-\(wenn nur`cut`zur Verfügung steht\)
+(wenn nur`cut`zur Verfügung steht)
 
-kleiner Trick auf aus einer Ausgabe \(z.B. find\) sich nur die Dateinamen + Endung ausgeben zu lassen.  
+kleiner Trick auf aus einer Ausgabe (z.B. find) sich nur die Dateinamen + Endung ausgeben zu lassen.  
 Bei unbekannter Verzeichnistiefe.
 
 ```
