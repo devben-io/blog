@@ -1,4 +1,13 @@
-# CLI \| Logging im bash skript {#bash_logging_im_bash_skript}
+---
+title: "CLI | Logging im bash skript"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  - log
+---
+
 
 folgendes Codeschnipsel am Anfang vom Skript bewirkt, dass die komplette Bildschirmausgabe \(auch remote-Sessions\) ins Logfile geschrieben wird.
 

@@ -1,4 +1,12 @@
-# CLI \| create LVM thinprovisioned Volumes {#lvm_thinprovisioned_volume_erstellen}
+---
+title: "CLI | create LVM thinprovisioned Volumes"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - EN
+---
+
 
 ```
 pvcreate /dev/sda

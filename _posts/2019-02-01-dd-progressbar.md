@@ -1,4 +1,14 @@
-# CLI \| dd Progressbar {#dd_progressbar}
+---
+title: "CLI | dd Progressbar"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  
+---
+
+
 
 ##### Problem {#problem}
 

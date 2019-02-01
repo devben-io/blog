@@ -1,4 +1,13 @@
-# CLI \| fuzzy finder \(fzf\)
+---
+title: "CLI | fuzzy finder (fzf)"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - EN
+  - tool
+---
+
 
 add the following lines to your `.bashrc` / `.zshrc` :
 

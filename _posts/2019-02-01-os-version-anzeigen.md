@@ -1,4 +1,12 @@
-# CLI \| OS Version anzeigen {#os_version_anzeigen}
+---
+title: "CLI | OS Version anzeigen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
 
 ## Ubuntu {#ubuntu}
 

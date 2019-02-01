@@ -1,4 +1,16 @@
-# CLI \| live ssh network throughput test {#live_ssh_network_throughput_test}
+---
+title: "CLI | live ssh network throughput test"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  - ssh
+  - network
+  - performance
+  - test
+---
+
 
 ```
 yes | pv | ssh <USER>@<HOST> "cat > /dev/null"

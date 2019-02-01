@@ -1,4 +1,12 @@
-# CLI \| pbzip2 - parallel packen
+---
+title: "CLI | pbzip2 - parallel packen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
 
 * geht schneller
 * verbraucht weniger Platz
