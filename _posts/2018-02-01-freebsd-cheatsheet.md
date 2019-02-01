@@ -10,7 +10,7 @@ tags:
   - cheatsheet
   - freebsd
   
-#excerpt: "This post should [...]"
+excerpt: ""
 header:
   overlay_image: /assets/images/unsplash-code-01-500.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
