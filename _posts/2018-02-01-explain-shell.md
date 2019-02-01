@@ -21,7 +21,7 @@ header:
 
 
 Web tool, that uses the `man`pages, for visualization of shell commands.
-
+<!--more-->
 ## Links:
 
 * https://explainshell.com

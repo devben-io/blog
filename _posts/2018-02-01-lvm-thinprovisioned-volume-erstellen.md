@@ -24,7 +24,7 @@ lvcreate -l 100%FREE -T vg01_bricks/lv_thinpool
 ...
 mkfs.ext4 /dev/mapper/vg01_bricks-lv_thinpool
 ```
-
+<!--more-->
 ## Weblinks {#weblinks}
 
 * [https://access.redhat.com/documentation/en-US/Red\_Hat\_Enterprise\_Linux/6/html/Logical\_Volume\_Manager\_Administration/thinly\_provisioned\_volume\_creation.html](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Logical_Volume_Manager_Administration/thinly_provisioned_volume_creation.html)

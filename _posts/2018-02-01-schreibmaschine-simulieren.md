@@ -24,7 +24,7 @@ echo "You can simulate on-screen typing just like in the movies" - pv -qL 10
 
 `-ql 10`- gibt an wieviele Zeichen pro Sekunde geschrieben werden sollen
 
-Bearbeiten
+<!--more-->
 
 ## Weblinks {#weblinks}
 

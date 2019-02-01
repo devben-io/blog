@@ -20,7 +20,7 @@ header:
 ```
 sed -i '<ZEILENNR.> d' <PFAD-ZUR-DATEI>
 ```
-
+<!--more-->
 
 
 ## Links

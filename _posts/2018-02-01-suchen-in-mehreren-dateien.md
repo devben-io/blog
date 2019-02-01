@@ -27,7 +27,7 @@ grep -r "<SUCHBEGRIFF-IN-DEN-DATEIEN>" /<PFAD-DER-DURCHSUCHT-WERDEN-SOLL>
 `-r` - recursive
 
 ### mit find:
-
+<!--more-->
 ```
 find /<PFAD-DER-DURCHSUCHT-WERDEN-SOLL> -type f -exec grep -l '<SUCHBEGRIFF-IN-DEN-DATEIEN>' {} \;
 ```

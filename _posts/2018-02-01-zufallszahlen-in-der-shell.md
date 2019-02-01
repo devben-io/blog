@@ -28,7 +28,7 @@ echo $RANDOM
 ```
 
 **Zahlen zwischen 0 und 99**
-
+<!--more-->
 ```
 echo $(($RANDOM % 100))
 ```

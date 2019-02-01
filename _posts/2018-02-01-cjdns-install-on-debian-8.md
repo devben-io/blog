@@ -36,6 +36,6 @@ cp contrib/systemd/cjdns.service /etc/systemd/system/
 systemctl enable cjdns
 systemctl start cjdns
 ```
-
+<!--more-->
 
 

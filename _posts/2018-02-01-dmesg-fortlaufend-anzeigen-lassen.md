@@ -25,7 +25,7 @@ als user:
 ```bash
 watch -n 1 'dmesg|tail -n 20'
 ```
-
+<!--more-->
 als root:
 
 ```bash

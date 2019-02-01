@@ -29,7 +29,7 @@ header:
 camcontrol devlist                      #
 glabel list                             ## show UUIDs from partitions
 ```
-
+<!--more-->
 ## Users
 
 ```

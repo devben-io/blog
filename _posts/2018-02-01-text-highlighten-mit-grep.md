@@ -23,7 +23,7 @@ $ grep --color -E '^|pattern1|pattern2' file name
 ```
 
 Oder:
-
+<!--more-->
 ```
 $ <command_here> - grep --color -E '^|pattern1|pattern2'
 ```
