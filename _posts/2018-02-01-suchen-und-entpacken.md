@@ -1,5 +1,5 @@
 ---
-title: "CLI | Suchen und Entpacken"
+title: "CLI - Suchen und Entpacken"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

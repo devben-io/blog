@@ -1,5 +1,5 @@
 ---
-title: "CLI | nur Dateinamen ausgeben"
+title: "CLI - nur Dateinamen ausgeben"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -13,7 +13,7 @@ Folgende CLI Magic ermöglicht es aus einem`<OUTPUT>`/ einem Dateipfad mit varia
 ## Möglichkeit 1 {#moeglichkeit_1}
 
 ```
-<OUTPUT> | rev | cut -d'/' -f1 | rev
+<OUTPUT> - rev - cut -d'/' -f1 - rev
 ```
 
 von der Ausgabe wird die Zeichenfolge mit`rev`umgedreht. Dadurch ist das letzte`/`das Erste. Danach wird mit`cut`auf das erste`/`gefiltert und die Reihenfolge wieder umgekehrt.
@@ -26,7 +26,7 @@ kleiner Trick auf aus einer Ausgabe \(z.B. find\) sich nur die Dateinamen + Endu
 Bei unbekannter Verzeichnistiefe.
 
 ```
-<OUTPUT> | cut -d'/' -f2- | cut -d'/' -f2- | cut -d'/' -f2- | cut -d'/' -f2- | ...
+<OUTPUT> - cut -d'/' -f2- - cut -d'/' -f2- - cut -d'/' -f2- - cut -d'/' -f2- - ...
 ```
 
 `…`- ensprechend weiter fortsetzen

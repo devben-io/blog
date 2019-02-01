@@ -1,5 +1,5 @@
 ---
-title: "CLI | OS Version anzeigen"
+title: "CLI - OS Version anzeigen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

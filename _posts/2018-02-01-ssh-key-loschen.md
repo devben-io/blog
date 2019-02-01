@@ -1,5 +1,5 @@
 ---
-title: "CLI | SSH Key löschen"
+title: "CLI - SSH Key löschen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

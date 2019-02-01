@@ -1,5 +1,5 @@
 ---
-title: "CLI | Suchen in mehreren Dateien"
+title: "CLI - Suchen in mehreren Dateien"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

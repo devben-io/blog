@@ -1,5 +1,5 @@
 ---
-title: "CLI | Logging im bash skript"
+title: "CLI - Logging im bash skript"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

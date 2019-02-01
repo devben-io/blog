@@ -1,5 +1,5 @@
 ---
-title: "CLI | dmesg fortlaufend anzeigen lassen"
+title: "CLI - dmesg fortlaufend anzeigen lassen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

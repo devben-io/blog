@@ -1,5 +1,5 @@
 ---
-title: "CLI | Zeile mit sed löschen"
+title: "CLI - Zeile mit sed löschen"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

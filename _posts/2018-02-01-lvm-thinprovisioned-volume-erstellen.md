@@ -1,5 +1,5 @@
 ---
-title: "CLI | create LVM thinprovisioned Volumes"
+title: "CLI - create LVM thinprovisioned Volumes"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "CLI | explainshell.com"
+title: "CLI - explainshell.com"
 excerpt_separator: "<!--more-->"
 categories:
 tags:

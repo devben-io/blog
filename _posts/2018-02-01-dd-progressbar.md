@@ -1,5 +1,5 @@
 ---
-title: "CLI | dd Progressbar"
+title: "CLI - dd Progressbar"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
@@ -32,7 +32,7 @@ Zur Not muss man`pv`eben nachinstallieren.
 Das sieht im Folgenden so aus…
 
 ```bash
-pv -tpreb <pfad/zum/input-file> | dd of=<pfad/zum/output-file>
+pv -tpreb <pfad/zum/input-file> - dd of=<pfad/zum/output-file>
 ```
 
 * die Parameter `-tpreb` zeigen den Fortschrittsbalken, ETA, Übertragungsrate, etc… an
