@@ -1,6 +1,7 @@
 ---
 title: "FreeBSD - Cheatsheet"
 excerpt_separator: "<!--more-->"
+author: Billy Rick
 categories:
 tags:
   - CLI
