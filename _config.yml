@@ -99,7 +99,7 @@ author:
   bio              : "just a guy, that does something with DevOps-, SRE- & System Engineering"
   location         : "Earth"
   links:
-    - label: "Your Website"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dtpnk.github.io/"
     # - label: "Twitter"
