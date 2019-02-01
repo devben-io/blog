@@ -19,9 +19,10 @@ header:
       url: "/tags/#cheatsheet"
 ---
 
+<!--more-->
 
 Assign multi-line string to a shell variable or file
-<!--more-->
+
 ```
 # to var
 $ sql=$(cat <<EOF
