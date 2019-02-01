@@ -436,7 +436,7 @@ With this YAML Front Matter:
 ```yaml
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  teaser: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "More Info"
@@ -464,7 +464,7 @@ You can also specifying the opacity (between `0` and `1`) of a black overlay lik
 ```yaml
 excerpt: "This post should [...]"
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  teaser: /assets/images/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -479,7 +479,7 @@ Or if you want to do more fancy things, go full rgba:
 ```yaml
 excerpt: "This post should [...]"
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  teaser: /assets/images/unsplash-image-1.jpg
   overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
@@ -492,7 +492,7 @@ Multiple call to action button links can be assigned like this:
 ```yaml
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  teaser: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Foo Button"
