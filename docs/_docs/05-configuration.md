@@ -215,7 +215,7 @@ This image can be overridden at anytime by applying the following to a document'
 
 ```yaml
 header:
-  teaser: /assets/images/my-awesome-post-teaser.jpg
+#  teaser: /assets/images/my-awesome-post-teaser.jpg
 ```
 
 <figure>
