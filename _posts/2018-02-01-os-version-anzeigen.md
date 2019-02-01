@@ -26,7 +26,7 @@ DISTRIB_RELEASE=9.04
 DISTRIB_CODENAME=jaunty
 DISTRIB_DESCRIPTION="Ubuntu 9.04"
 ```
-
+<!--more-->
 ## Debian {#debian}
 
 ```

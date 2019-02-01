@@ -24,7 +24,7 @@ Mit convert können bspw. gescannte Dokumente als PDF gespeichert werden. Die Be
 ```
 convert quelle.png ziel.pdf
 ```
-
+<!--more-->
 Mit folgendem Befehl kann man Bilder aus PDF-Dateien extrahieren:
 
 ```

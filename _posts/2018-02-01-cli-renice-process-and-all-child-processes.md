@@ -21,7 +21,7 @@ header:
 
 
 With this "one-liner" you can set the priority of a parent process and all it's childprocesses at one time.
-
+<!--more-->
 ```
 ls /proc/$(ps aux - grep <NAME-OF-PROCESS> - grep -v grep - awk '{ print $2 }')/task - xargs renice <PRIO>
 ```

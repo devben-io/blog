@@ -27,7 +27,7 @@ tar vcf myfile.tbz2 --use-compress-prog=pbzip2 dir_to_compress/
 ```
 
 ODER
-
+<!--more-->
 ```
 tar -vc directory_to_compress/ - pbzip2 -vc > myfile.tar.bz2
 ```

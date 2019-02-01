@@ -19,7 +19,7 @@ header:
 
 
 add the following lines to your `.bashrc` / `.zshrc` :
-
+<!--more-->
 ```bash
 # import fzf support for zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

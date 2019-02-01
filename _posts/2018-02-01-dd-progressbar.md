@@ -32,7 +32,7 @@ header:
 `dd`~~bietet~~ bot früher von Haus aus keine Fortschrittsanzeige.
 
 _(jetzt geht es mit `status=progress`)_
-
+<!--more-->
 ##### Lösung {#loesung}
 
 Man nimmt pv zu Hilfe und pipe-t (der Senkrecht-Strich`|`) die Daten zu`dd`  

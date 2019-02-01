@@ -25,7 +25,7 @@ header:
 ```
 tar -cf - . - pv -s $(du -sb . - awk '{print $1}') - gzip > out.tgz
 ```
-
+<!--more-->
 ## Weblinks {#weblinks}
 
 * [http://www.catonmat.net/blog/unix-utilities-pipe-viewer/](http://www.catonmat.net/blog/unix-utilities-pipe-viewer/)

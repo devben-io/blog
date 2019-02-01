@@ -24,7 +24,7 @@ header:
 Hier findet Ihr einige Skriptbeispiele aus unseren Trainings und Projekterfahrungen.
 
 Mit Bash-Skripten kann man fast alles realisieren, was ein Netzwerkadministrator für den Hausgebrauch benötigt, sei es das automatische Setzen von Berechtigungen für Samba-Freigaben oder das Prüfen einer eingebundene Netzwerkressource.
-
+<!--more-->
 
 
 ## Skript mit Parametern aufrufen und auswerten

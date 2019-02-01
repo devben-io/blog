@@ -23,7 +23,7 @@ Allgemeine Syntax:
 ```
 find <dir-name> <criteria> <action>
 ```
-
+<!--more-->
 * `dir-name`: - Defines the working directory such as look into /tmp/
 * `criteria`: Use to select files such as „\*.sh“
 * `action`: The find action (what-to-do on file) such as delete the file.

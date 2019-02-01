@@ -25,7 +25,7 @@ header:
 * man kann dies händisch z.B. mit`ifconfig re1 mtu 9000 up`machen → bekommt aber Fehlermeldungen bzw. die Änderungen sind nach dem Neustart _weg_. (nicht peristent)
 
 #### Lösung {#loesung}
-
+<!--more-->
 * `Shellcmd`Paket nachinstallieren und danach folgende Kommandos in der WebGUI eintragen:
 
 

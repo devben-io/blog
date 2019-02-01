@@ -24,7 +24,7 @@ Folgende CLI Magic ermöglicht es aus einem`<OUTPUT>`/ einem Dateipfad mit varia
 ```
 <OUTPUT> - rev - cut -d'/' -f1 - rev
 ```
-
+<!--more-->
 von der Ausgabe wird die Zeichenfolge mit`rev`umgedreht. Dadurch ist das letzte`/`das Erste. Danach wird mit`cut`auf das erste`/`gefiltert und die Reihenfolge wieder umgekehrt.
 
 ## Möglichkeit 2 {#moeglichkeit_2}
