@@ -2,6 +2,7 @@
 title: "CLI - Text highlighten mit grep (ohne zu Filtern)"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - bash
   - CLI

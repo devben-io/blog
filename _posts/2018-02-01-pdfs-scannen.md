@@ -2,6 +2,7 @@
 title: "CLI - PDFs scannen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

@@ -2,6 +2,7 @@
 title: "CLI - Bash Scripting Grundlagen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
   - HowTo
 tags:
   - bash

@@ -2,6 +2,7 @@
 title: "CLI - SSH Key löschen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

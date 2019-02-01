@@ -2,6 +2,7 @@
 title: "CLI - nur Dateinamen ausgeben"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

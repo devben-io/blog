@@ -2,6 +2,7 @@
 title: "CLI - live ssh network throughput test"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

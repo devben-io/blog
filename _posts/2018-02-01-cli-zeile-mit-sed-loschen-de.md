@@ -2,6 +2,7 @@
 title: "CLI - Zeile mit sed löschen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

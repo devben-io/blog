@@ -2,6 +2,7 @@
 title: "CLI - Top 10 Prozesse anzeigen lassen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - bash
   - CLI

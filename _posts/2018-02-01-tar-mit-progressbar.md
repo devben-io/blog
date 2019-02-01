@@ -2,6 +2,7 @@
 title: "CLI - tar mit Progressbar"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - bash
   - CLI

@@ -2,6 +2,7 @@
 title: "CLI - pbzip2 - parallel packen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

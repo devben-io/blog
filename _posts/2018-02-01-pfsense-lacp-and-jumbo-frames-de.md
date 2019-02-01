@@ -2,6 +2,7 @@
 title: "pfSense - LACP & Jumbo Frames"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - DE
   - network

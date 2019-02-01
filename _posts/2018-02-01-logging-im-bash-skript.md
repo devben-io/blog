@@ -2,6 +2,7 @@
 title: "CLI - Logging im bash skript"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

@@ -2,6 +2,7 @@
 title: "CLI - Suchen in mehreren Dateien"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

@@ -2,6 +2,7 @@
 title: "CLI - Weather Report in terminal"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

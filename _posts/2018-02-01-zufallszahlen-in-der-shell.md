@@ -2,6 +2,7 @@
 title: "CLI - Zufallszahlen in der Shell"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - bash
   - CLI

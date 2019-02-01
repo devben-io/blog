@@ -2,6 +2,7 @@
 title: "CLI - Schreibmaschine simulieren"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

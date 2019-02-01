@@ -2,6 +2,7 @@
 title: "CLI - OS Version anzeigen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

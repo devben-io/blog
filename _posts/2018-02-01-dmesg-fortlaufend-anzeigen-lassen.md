@@ -2,6 +2,7 @@
 title: "CLI - dmesg fortlaufend anzeigen lassen"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE

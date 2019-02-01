@@ -2,6 +2,7 @@
 title: "CLI - dd Progressbar"
 excerpt_separator: "<!--more-->"
 categories:
+  - DE
 tags:
   - CLI
   - DE
