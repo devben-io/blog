@@ -1,4 +1,13 @@
-# CLI \| Weather Report in terminal
+---
+title: "CLI | Weather Report in terminal"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  
+---
+
 
 ```
 curl -4 http://wttr.in/<CITY-NAME>

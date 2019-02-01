@@ -1,4 +1,13 @@
-# CLI \| Suchen in mehreren Dateien {#suchen_in_mehreren_dateien}
+---
+title: "CLI | Suchen in mehreren Dateien"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
+
 
 ### mit grep:
 

@@ -1,4 +1,12 @@
-# CLI \| Zeile mit sed löschen \(DE\)
+---
+title: "CLI | Zeile mit sed löschen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  
+---
 
 ```
 sed -i '<ZEILENNR.> d' <PFAD-ZUR-DATEI>

@@ -1,4 +1,15 @@
-# CLI \| Renice Process and all child processes
+---
+title: "CLI | Renice Process and all child processes"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - EN
+  - cpu
+  - process
+  
+---
+
 
 With this "one-liner" you can set the priority of a parent process and all it's childprocesses at one time.
 

@@ -1,4 +1,14 @@
-# CLI \| Top 10 Prozesse anzeigen lassen {#top_10_prozesse_anzeigen_lassen}
+---
+title: "CLI | Top 10 Prozesse anzeigen lassen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - bash
+  - CLI
+  - DE
+---
+
+
 
 die 10 Prozesse mit der meisten CPU-Load anzeigen lassen \(sortiert\)
 

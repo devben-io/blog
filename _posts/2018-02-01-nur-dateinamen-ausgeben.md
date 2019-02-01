@@ -1,4 +1,12 @@
-# CLI \| nur Dateinamen ausgeben {#bash_nur_dateinamen_ausgeben}
+---
+title: "CLI | nur Dateinamen ausgeben"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
 
 Folgende CLI Magic ermöglicht es aus einem`<OUTPUT>`/ einem Dateipfad mit variabler Verzeichnistiefe \(z.B.`/irgend/ein/Pfad/zu/einer/<DATEI>.<ENDUNG>`\) , nur die`<DATEI>.<ENDUNG>`herauszufiltern. \(z.B wenn `basename` nicht zur Verfügung steht\)
 

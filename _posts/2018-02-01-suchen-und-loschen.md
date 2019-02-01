@@ -1,11 +1,18 @@
-# CLI \| Suchen und Löschen in der Konsole {#suchen_und_loeschen_in_der_konsole}
+---
+title: "CLI | Suchen und Löschen in der Konsole"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
 
 Dieses Vorgehen benutzt man, um bestimmte Dateien zu suchen und gleichzeitig auch zu löschen.
 
 Allgemeine Syntax:
 
 ```
-find dir-name criteria action
+find <dir-name> <criteria> <action>
 ```
 
 * `dir-name`: - Defines the working directory such as look into /tmp/

@@ -1,4 +1,14 @@
-# CLI \| tar mit Progressbar {#tar_mit_progressbar}
+---
+title: "CLI | tar mit Progressbar"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - bash
+  - CLI
+  - DE
+---
+
+
 
 * mit Hilfe von `pv`
 * mittels `du` wird die Größe des Verzeichnisses ermittelt

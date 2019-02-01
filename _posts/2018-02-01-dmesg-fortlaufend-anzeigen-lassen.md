@@ -1,4 +1,15 @@
-# CLI \| dmesg fortlaufend anzeigen lassen {#dmesg_fortlaufend_anzeigen_lassen}
+---
+title: "CLI | dmesg fortlaufend anzeigen lassen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+  - kernel
+  - debugging
+  
+---
+
 
 als user:
 
