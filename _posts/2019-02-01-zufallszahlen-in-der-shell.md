@@ -1,4 +1,14 @@
-# CLI \| Zufallszahlen in der Shell {#zufallszahlen_in_der_shell}
+---
+title: "CLI | Zufallszahlen in der Shell"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - bash
+  - CLI
+  - DE
+---
+
+
 
 Umgebungsvariablen:`$RANDOM`
 

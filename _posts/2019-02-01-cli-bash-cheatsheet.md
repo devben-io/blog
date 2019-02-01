@@ -2,10 +2,12 @@
 title: "CLI | Bash cheatsheet"
 categories:
   - HowTo
-  - EN
+
 tags:
   - bash
   - CLI
+  - cheatsheet
+  - EN
 ---
 
 

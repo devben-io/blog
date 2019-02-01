@@ -1,4 +1,12 @@
-# CLI \| PDFs scannen {#pdfs_scannen}
+---
+title: "CLI | PDFs scannen"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
 
 ### PDF-Bearbeitung {#pdf-bearbeitung}
 

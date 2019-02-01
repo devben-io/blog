@@ -1,4 +1,11 @@
-# CLI \| Suchen und Ersetzen in mehreren Dateien {#suchen_und_ersetzen_in_mehreren_dateien}
+---
+title: "CLI | Suchen und Ersetzen in mehreren Dateien"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
 
 ```
 find /<Pfad>/<Dateien> -type f -exec sed -i '' -e 's/<alter Begriff>/<neuer Begriff>/g' {} \;

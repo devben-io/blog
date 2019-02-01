@@ -1,4 +1,13 @@
-# Schreibmaschine simulieren {#schreibmaschine_simulieren}
+---
+title: "CLI | Schreibmaschine simulieren"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - CLI
+  - DE
+---
+
+
 
 ```
 echo "You can simulate on-screen typing just like in the movies" | pv -qL 10
