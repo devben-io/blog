@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # SALT - Highstate as scheduled job (config pull) {#salt_highstate_per_scheduled_job_config_pullen}
 
 folgendes in die &lt;minion-config&gt; eintragen:

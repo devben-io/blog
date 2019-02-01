@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # OSX - tinc
 
 ## Links

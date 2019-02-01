@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # Client(s)
 
 _(die Dinger, wo die Musik rauskommen tut…)_

@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # HOWTO -  Gitbook - build static page
 
 ## Voraussetzungen

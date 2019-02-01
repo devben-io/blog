@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # SALT - install salt with salt-ssh {#salt_salt_mit_salt-ssh_installieren}
 
 ## Weblinks {#weblinks}

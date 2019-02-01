@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # RPI - Multiroom-Audio (synchron) {#rpi_multiroom-audio_synchron}
 
 Volumio (mpd) + SpotifyConnect +Snapcast(+ Shariplay)  

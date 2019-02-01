@@ -1,4 +1,12 @@
-# GIT - configure upstream repo for a Fork
+---
+#title: "GIT - configure upstream repo for a Fork"
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
 
 ## Links:
 

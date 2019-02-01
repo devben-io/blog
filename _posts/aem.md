@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # AEM - Adobe Experience Manager (6.3)
 
 Collection of curl commands.

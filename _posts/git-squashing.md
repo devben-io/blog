@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # GIT - Rebase (squashing)
 
 When branching off of master or development the changes need to be merged back into the original branch.

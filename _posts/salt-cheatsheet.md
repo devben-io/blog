@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # SALT - Cheatsheet {#salt_cheatsheet}
 
 ## Daily Sysadmin Stuff

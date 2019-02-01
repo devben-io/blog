@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # Server {#server}
 
 _(datt Ding, wo die Musik reinkommen tut…)_

@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # GITHUB - Pages
 
 * [http://www.stephaniehicks.com/githubPages\_tutorial/pages/github-intro.htmlhttp://www.stephaniehicks.com/githubPages\_tutorial/pages/github-intro.html](http://www.stephaniehicks.com/githubPages_tutorial/pages/github-intro.html)

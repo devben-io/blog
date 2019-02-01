@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # GIT - Sync Fork from upstream Repo
 
 #### Add the Remote Upstream Repository

@@ -1,3 +1,13 @@
+---
+#title: ""
+excerpt_separator: "<!--more-->"
+categories:
+tags:
+  - 
+  - 
+---
+
+
 # OSX - install on a bootable USB Stick
 
 * Download "**Install macOS High Sierra.app**" from Appstore.
