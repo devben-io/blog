@@ -1,14 +1,14 @@
 ---
-#title: ""
+title: "Apache Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
-  - 
-  - 
+  - apache
+  - web
+  - cheatsheet
+  - EN
 ---
 
-
-# Apache Cheatsheet
 
 ```
 apachectl -S        # Show Virtual Hosts and configs

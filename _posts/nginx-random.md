@@ -1,14 +1,15 @@
 ---
-#title: ""
+title: "NGINX - Random"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
-  - 
-  - 
+  - nginx
+  - web
+  - EN
+  - links
 ---
 
 
-# NGINX - Random
 
 
 

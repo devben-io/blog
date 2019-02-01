@@ -1,14 +1,16 @@
 ---
-#title: ""
+title: "VM export on VMware Fusion (OSX)"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
-  - 
-  - 
+  - vm
+  - vmware
+  - apple
+  - osx
+  - EN
+  - CLI
 ---
 
-
-# VM export on VMware Fusion \(OSX\)
 
 ```
 /Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovftool --acceptAllEulas /Users/<USERNAME>/Documents/Virtual\ Machines.localized/<VM-NAME>.vmwarevm/<VM-NAME>.vmx /<EXPORT-PATH>/<VM-NAME>.ova

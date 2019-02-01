@@ -1,14 +1,17 @@
 ---
-#title: ""
+title: "CJDNS - install on Debian 8"
 excerpt_separator: "<!--more-->"
 categories:
 tags:
-  - 
-  - 
+  - EN
+  - network
+  - vpn
+  - mesh
+  - debian
+  - linux
+  - systemd
 ---
 
-
-# CJDNS - install on Debian 8
 
 ```
 #Dependency
