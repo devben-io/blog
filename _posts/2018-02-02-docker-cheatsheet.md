@@ -7,16 +7,11 @@ tags:
   - docker
   - logs
   - container
-  - links
+  - CLI
 ---
 
 
 
-## docker stats with container names instead of IDs
-
-```bash
-docker stats $(docker ps --format=\{{.Names\}})
-```
 
 ## deletes old containers  and images
 
