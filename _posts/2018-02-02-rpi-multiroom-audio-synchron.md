@@ -1,5 +1,5 @@
 ---
-title: "RPI - Multiroom-Audio (synchron"
+title: "RPI - Multiroom-Audio (synchron)"
 excerpt_separator: "<!--more-->"
 categories:
   - DE

@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "RPI - Sensoren"
 excerpt_separator: "<!--more-->"
 categories:
   - DE
@@ -10,8 +10,6 @@ tags:
   - links
 ---
 
-
-# RPI - Sensoren
 
 ## DHT11 / DH22 - Luftfeuchtigkeits-, Temperatur Sensor
 
