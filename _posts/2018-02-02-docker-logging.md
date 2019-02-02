@@ -1,6 +1,5 @@
 ---
-title: "DOCKER - Logging
-"
+title: "DOCKER - Logging"
 excerpt_separator: "<!--more-->"
 categories:
   - EN
