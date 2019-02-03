@@ -17,7 +17,10 @@ header:
     - label: "More"
       url: "/tags/#cheatsheet"
 ---
+## Shortcuts
 
+## Session Management
 
 ## Links
 * https://thoughtbot.com/blog/a-tmux-crash-course
+* https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
