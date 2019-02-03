@@ -4,7 +4,7 @@ for i in $(ls | grep ".md" | grep -v 2018); do
 	TMP=$(mktemp) 
 	echo $i; 
 	echo -e '---
-title: ""
+#title: ""
 excerpt_separator: "<!--more-->"
 categories:
   - EN
