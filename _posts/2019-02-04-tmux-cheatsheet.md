@@ -1,5 +1,6 @@
 ---
 title: "tmux Cheatsheet"
+excerpt_separator: "<!--more-->"
 categories:
   - EN
 
@@ -17,6 +18,7 @@ header:
     - label: "More"
       url: "/tags/#cheatsheet"
 ---
+<!--more-->
 ## Shortcuts
 
 ## Session Management
