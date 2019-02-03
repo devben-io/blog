@@ -1,5 +1,5 @@
 ---
-title: "tmux Cheatsheet"
+title: "Screen Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
   - EN
