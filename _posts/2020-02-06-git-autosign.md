@@ -48,5 +48,6 @@ git config –-global commit.gpgsign true     # for the current repos
 
 ## Links
 * https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
+* https://help.github.com/articles/signing-commits/
 * https://pbspro.atlassian.net/wiki/spaces/DG/pages/39419906/Signing+Your+Git+Commits
 * https://developers.yubico.com/PGP/Git_signing.html
