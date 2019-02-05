@@ -8,6 +8,7 @@ tags:
   - git
   - CLI
   - gpg
+  - yubikey
   - security
 
 # header:
@@ -19,13 +20,19 @@ tags:
 #     - label: "More"
 #       url: "/tags/#cheatsheet"
 ---
+## Overview
+This is a HowTo for setting up git for signing your commits auto-magic-ly with your GPG key.
 
-## get GPG key ID
+## Prerequisite
+* having a GPG-Key
+
+## Do it
+get GPG key ID
 ```bash
 gpg --list-keys
 ```
 
-## set gpg programm for signing (optional)
+set gpg programm for signing (optional)
 ```bash
 git config --global gpg.program gpg2
 ```
@@ -41,9 +48,8 @@ git config --global user.signingkey F2C7AB2
 
 configure autosign
 ```bash
-git config –-global commit.gpgsign true     # for all repos
-
-git config –-global commit.gpgsign true     # for the current repos
+git config –-global commit.gpgsign true     # global - for all repos
+git config commit.gpgsign true     # local - for the current repos
 ```
 
 ## Links
