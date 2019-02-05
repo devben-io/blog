@@ -22,7 +22,8 @@ header:
 ---
 <!--more-->
 
-\<PRE\> = Prefix = `[Ctrl]` + `[b]` (by default)
+## Basics
+`<PRE>` = Prefix = `[Ctrl]` + `[b]` (by default)
 
 ## config hacks
 edit/create `~/.tmux.conf` and add/change following lines for:
