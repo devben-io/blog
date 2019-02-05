@@ -8,6 +8,8 @@ tags:
   - bash
   - CLI
   - cheatsheet
+  - sharing
+  - collaboration
 
 header:
   teaser: /assets/images/unsplash-books-01-150.jpg
@@ -46,6 +48,16 @@ unbind %
 # force a reload of the config file
 unbind r
 bind r source-file ~/.tmux.conf
+
+# Set the default terminal mode to 256color mode
+set -g default-terminal "screen-256color"
+
+# enable activity alerts
+setw -g monitor-activity on
+set -g visual-activity on
+
+# Center the window list
+set -g status-justify centre
 ```
 
 ## Session Management
@@ -54,11 +66,21 @@ tmux ls                           # list all sessions
 tmux a                            # attach to the last used session
 tmux a -t <SESSION-NAME>          # attach to a specific session
 tmux kill-session -t <SESSION-NO) # kill session with number ...
+
+<PRE> (                           # previous session
+<PRE> )                           # next session
+<PRE> L                           # ‘last’ (previously used) session
+<PRE> s                           # choose a session from a list
+
+<PRE> s                           # list sessions
+<PRE> $                           # name session
+
 ```
 
 
 ## Windows
 ```bash
+<PRE> <No.> # got window number ...
 <PRE> c     # Create a new window (appears in status bar)
 <PRE> w     # list windows
 <PRE> n     # next window
@@ -66,11 +88,10 @@ tmux kill-session -t <SESSION-NO) # kill session with number ...
 <PRE> 0     # Switch to window 0
 <PRE> 1     # Switch to window 1
 <PRE> 2     # Switch to window 2 (etc.)
-<PRE> x     # Kill current window
 <PRE> d     # Detach tmux (exit back to normal terminal)
 <PRE> f     # find window
 <PRE> ,     # name window
-<PRE> &     # kill window
+<PRE> &     # kill window (with all panes)
 <PRE> l     # Move to the previously selected window
 ```
 
@@ -83,22 +104,32 @@ tmux kill-session -t <SESSION-NO) # kill session with number ...
 ```
 
 
-## Tiling
+## Panes / Tiling
 (after changing the key bindings)
 ```bash
 <PRE> -         # tiling horizontially
 <PRE> |         # tiling vertically
+<PRE> x         # Kill current pane
+<PRE> z         # toogle pane fullscreen (pane zoom)
+<PRE> {         # move current pane to the left
+<PRE> }         # move current pane to the right
+<PRE> <SPACE>   # move current pane to the right
 ```
 
-
-## Misc
+# Misc
 ```bash
-<PRE> <SPACE>   # switch between tiling modes
+<PRE> t         # show time
+<PRE> r         # reload config
+<PRE> ?         # show help
+<PRE> :         # prompt
 ```
 
 
 ## Links
+* https://tmuxcheatsheet.com/
 * https://wiki.archlinux.org/index.php/tmux
 https://thoughtbot.com/blog/a-tmux-crash-course
 * https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
 * https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+* https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
+* https://www.hamvocke.com/blog/remote-pair-programming-with-tmux/
