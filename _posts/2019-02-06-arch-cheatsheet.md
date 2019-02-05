@@ -1,5 +1,5 @@
 ---
-title: "tmux Cheatsheet"
+title: "Arch Linux - Cheatsheet"
 excerpt_separator: "<!--more-->"
 categories:
   - EN
