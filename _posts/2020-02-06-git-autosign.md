@@ -41,5 +41,6 @@ git config –-global commit.gpgsign true
 ```
 
 ## Links
-* https://stackoverflow.com/questions/10161198/is-there-a-way-to-autosign-commits-in-git-with-a-gpg-key
+* https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/
 * https://pbspro.atlassian.net/wiki/spaces/DG/pages/39419906/Signing+Your+Git+Commits
+* https://developers.yubico.com/PGP/Git_signing.html
