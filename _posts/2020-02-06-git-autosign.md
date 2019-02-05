@@ -25,8 +25,12 @@ tags:
 gpg --list-keys
 ```
 
+## set gpg programm for signing (optional)
+```bash
+git config --global gpg.program gpg2
+```
 
-## global
+
 set gpg key for signing
 ```bash
 git config --global user.signingkey <GPG-KEY-ID>
@@ -37,7 +41,9 @@ git config --global user.signingkey F2C7AB2
 
 configure autosign
 ```bash
-git config –-global commit.gpgsign true
+git config –-global commit.gpgsign true     # for all repos
+
+git config –-global commit.gpgsign true     # for the current repos
 ```
 
 ## Links
