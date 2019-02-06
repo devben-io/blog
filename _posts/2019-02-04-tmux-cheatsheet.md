@@ -54,11 +54,17 @@ bind r source-file ~/.tmux.conf
 set -g default-terminal "screen-256color"
 
 # enable activity alerts
-setw -g monitor-activity on
-set -g visual-activity on
+#setw -g monitor-activity on
+#set -g visual-activity on
 
 # Center the window list
 set -g status-justify centre
+
+# Mouse scrolling
+set -g mouse on
+set -g history-limit 30000
+bind -T root WheelUpPane   if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; copy-mode -e; send-keys -M"                                                                                       
+bind -T root WheelDownPane if-shell -F -t = "#{alternate_on}" "send-keys -M" "select-pane -t =; send-keys -M" 
 ```
 
 ## Session Management
@@ -73,7 +79,7 @@ tmux kill-session -t <SESSION-NO) # kill session with number ...
 <PRE> L                           # ‘last’ (previously used) session
 <PRE> s                           # choose a session from a list
 
-<PRE> s                           # list sessions
+<PRE> ls                          # list sessions
 <PRE> $                           # name session
 
 ```
@@ -114,7 +120,7 @@ tmux kill-session -t <SESSION-NO) # kill session with number ...
 <PRE> z         # toogle pane fullscreen (pane zoom)
 <PRE> {         # move current pane to the left
 <PRE> }         # move current pane to the right
-<PRE> <SPACE>   # move current pane to the right
+<PRE> <SPACE>   # toggle panes arrangments
 ```
 
 # Misc
@@ -125,11 +131,18 @@ tmux kill-session -t <SESSION-NO) # kill session with number ...
 <PRE> :         # prompt
 ```
 
+---
+**NOTE**
+
+after you turned on the mouse mode ("`set -g mouse on`"), you need to press `[SHIFT]` when you wanna mark text in the terminal (for copy & paste).
+
+---
+
 
 ## Links
 * https://tmuxcheatsheet.com/
 * https://wiki.archlinux.org/index.php/tmux
-https://thoughtbot.com/blog/a-tmux-crash-course
+* https://thoughtbot.com/blog/a-tmux-crash-course
 * https://medium.com/actualize-network/a-minimalist-guide-to-tmux-13675fb160fa
 * https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
 * https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen
