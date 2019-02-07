@@ -23,7 +23,7 @@ tags:
 #       url: "/tags/#cheatsheet"
 ---
 ## Overview
-This is a HowTo for setting up **borg backup** on a Sailfish device. (in my case: a Sony Xperia XA2 )
+This is a HowTo for installing & setting up **borg backup** on a Sailfish device. (in my case: a Sony Xperia XA2 )
 
 ## Prerequisite
 * `wget` should be installed on the sailfish device
