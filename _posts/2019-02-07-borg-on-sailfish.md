@@ -10,6 +10,8 @@ tags:
   - arm
   - mobile
   - backup
+  - sony
+  - xperia xa2
 
 # header:
 #   teaser: /assets/images/unsplash-books-01-150.jpg
@@ -21,7 +23,7 @@ tags:
 #       url: "/tags/#cheatsheet"
 ---
 ## Overview
-This is a HowTo for setting up **borg backup** on a Sailfish device. (a Sony Xperia XA2 in my case)
+This is a HowTo for setting up **borg backup** on a Sailfish device. (in my case: a Sony Xperia XA2 )
 
 ## Prerequisite
 * `wget` should be installed on the sailfish device
