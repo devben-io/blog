@@ -48,10 +48,11 @@ Private Repos
 GHUSER=<USERNAME>; curl -H 'Authorization: token <API-TOKEN>' "https://api.github.com/users/$GHUSER/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 -P10 git clone
 ```
 
----
-**INFO**
-* the `-P10` parameter at the xargs command speeds up the parallel processes. You can adjust it to your needs
----
+
+### INFO
+
+the `-P10` parameter at the xargs command speeds up the parallel processes. You can adjust it to your needs
+
 
 ## Links
 * https://stackoverflow.com/questions/19576742/how-to-clone-all-repos-at-once-from-github
