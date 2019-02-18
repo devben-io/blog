@@ -56,3 +56,4 @@ the `-P10` parameter at the xargs command speeds up the parallel processes. You 
 
 ## Links
 * https://stackoverflow.com/questions/19576742/how-to-clone-all-repos-at-once-from-github
+* https://medium.com/@kevinsimper/how-to-clone-all-repositories-in-a-github-organization-8ccc6c4bd9df
