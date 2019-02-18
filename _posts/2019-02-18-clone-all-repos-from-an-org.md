@@ -49,7 +49,8 @@ GHUSER=<USERNAME>; curl -H 'Authorization: token <API-TOKEN>' "https://api.githu
 ```
 
 ---
-**INFO**
+### INFO
+
 * the `-P10` parameter at the xargs command speeds up the parallel processes. You can adjust it to your needs
 ---
 
