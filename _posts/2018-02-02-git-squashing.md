@@ -98,3 +98,5 @@ git push --force
 
 
 
+## Links
+* https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing
