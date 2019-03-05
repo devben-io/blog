@@ -46,7 +46,7 @@ e892cf4  Tue Jul 3 20:33:04 2018 +0200 (9 weeks ago)     User 3: sort reference 
 Starting from HEAD (the last commit, index 0) we want to squash the commits HEAD-7:
 
 ```
-git rebase -i head~7
+git rebase -i HEAD~7
 
 pick a937e70 env created
 pick 07da457 fix "window.location.href"
@@ -89,6 +89,17 @@ s 328dd76 Update docker build steps
 ```
 
 Change the commit message, save and clean up the rest of the commit messages.
+
+
+
+(optional) rebase "back" to your Branch, you wanna merge to:
+```bash
+git rebase <MERGE-TO-BRANCH> <FEATURE-BRANCH>
+
+# e.g.
+git rebase master feature/awesome
+```
+
 
 Then forcely push the "new" feature-branch to server via:
 
