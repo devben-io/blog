@@ -30,7 +30,7 @@ I had the issue by using oh-my-ZSH with powerline fonts, that some chars are not
 
 ## Solution
 <!--more-->
-![image-title-here](blog/assets/images/2019-03-06_11-01-53.png)
+![image-title-here](/blog/assets/images/2019-03-06_11-01-53.png)
 
 install fonts
 ```
