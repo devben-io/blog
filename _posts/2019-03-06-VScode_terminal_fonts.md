@@ -23,6 +23,7 @@ tags:
 ---
 
 ## Problem
+![image-title-here](/blog/assets/images/2019-03-06_11-01-33_01.png)
 ![image-title-here](/blog/assets/images/2019-03-06_11-01-33.png)
 
 I had the issue by using oh-my-ZSH with powerline fonts, that some chars are not rendered correctly in the VScode integrated Terminal
@@ -30,7 +31,8 @@ I had the issue by using oh-my-ZSH with powerline fonts, that some chars are not
 
 ## Solution
 <!--more-->
-![image-title-here](/blog/assets/images/2019-03-06_11-01-53.png)
+![solved](/blog/assets/images/2019-03-06_11-01-53_01.png)
+![solved](/blog/assets/images/2019-03-06_11-01-53.png)
 
 install fonts
 ```
