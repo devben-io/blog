@@ -112,7 +112,7 @@ git push --force
 ## Hacks
 
 ```bash
-# combine the two commands
+# select commits that should be squashed
 git rebase -i HEAD~$(git rev-list --count HEAD ^master)
 
 # rebase back to former branch e.g. "master"
