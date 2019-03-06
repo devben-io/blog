@@ -109,5 +109,11 @@ git push --force
 
 
 
+## Hacks
+combine the two commands `git rev-list --count HEAD ^master` + `git rebase -i HEAD~<AMOUNT-OF-COMMITS>`:
+```bash
+git rebase -i HEAD~$(git rev-list --count HEAD ^master)
+```
+
 ## Links
 * https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing
