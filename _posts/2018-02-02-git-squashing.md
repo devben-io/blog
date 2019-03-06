@@ -110,9 +110,16 @@ git push --force
 
 
 ## Hacks
-combine the two commands `git rev-list --count HEAD ^master` + `git rebase -i HEAD~<AMOUNT-OF-COMMITS>`:
+
 ```bash
+# select commits that should be squashed
 git rebase -i HEAD~$(git rev-list --count HEAD ^master)
+
+# rebase back to former branch e.g. "master"
+git rebase master feature/<AWESOME-FEATURE>
+
+# push changes, overwrites the history
+git push --force
 ```
 
 ## Links
