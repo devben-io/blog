@@ -23,8 +23,9 @@ tags:
 ## Overview
 This is a HowTo for installing the Drivers of a [Futjisu SnapScan S1300](http://www.fujitsu.com/us/products/computing/peripheral/scanners/product/eol/s1300/) document scanner on Linux (e.g. ArchLinux)
 
-![img1](http://www.fujitsu.com/us/Images/s1300_paper_tcm127-1194659.jpg)
-![img2](http://www.fujitsu.com/us/Images/s1300_header_tcm127-1177541.jpg)
+![img1](http://www.fujitsu.com/us/Images/s1300_header_tcm127-1177541.jpg)
+![img2](http://www.fujitsu.com/us/Images/s1300_paper_tcm127-1194659.jpg)
+
 
 
 ## Prerequisite
