@@ -8,6 +8,7 @@ tags:
   - firmware
   - scanner
   - HowTo
+  - arch
  
 
 # header:
@@ -20,7 +21,7 @@ tags:
 #       url: "/tags/#cheatsheet"
 ---
 ## Overview
-This is HowTo for installing the Drivers of an Futjisu SnapScan S1300 document scanner on Linux
+This is a HowTo for installing the Drivers of an Futjisu SnapScan S1300 document scanner on Linux (e.g. ArchLinux)
 
 ## Prerequisite
 * `sane` is installed
