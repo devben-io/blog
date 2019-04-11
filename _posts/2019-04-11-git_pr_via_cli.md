@@ -26,7 +26,7 @@ yay -S hub
 
 ## SSH instead of git protocol 
 ```bash
-$ git config --global hub.protocol https
+$ git config --global hub.protocol ssh
 ```
 
 ## Open PR on Github
