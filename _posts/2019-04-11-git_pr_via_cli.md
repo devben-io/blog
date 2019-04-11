@@ -18,7 +18,7 @@ tags:
 #     - label: "More"
 #       url: "/tags/#cheatsheet"
 ---
-## Install
+## Install Tool "hub"
 e.g. for ARCH Linux:
 ```bash
 yay -S hub
