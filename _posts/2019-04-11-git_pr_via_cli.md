@@ -18,7 +18,7 @@ tags:
 #     - label: "More"
 #       url: "/tags/#cheatsheet"
 ---
-## Install
+## Install Tool "hub"
 e.g. for ARCH Linux:
 ```bash
 yay -S hub
@@ -33,7 +33,7 @@ $ git config --global hub.protocol ssh
 ```bash
 hub pull-request -o
 ```
-**`-o`**  open in PR in Browser afterwards
+**`-o`**  open PR in Browser afterwards
 
 
 
