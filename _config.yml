@@ -11,16 +11,16 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "/dev/ben/blog"
+title                    : "/dev/dtpnk/blog"
 title_separator          : "-"
-name                     : "DevBen"
+name                     : "dtpnk"
 description              : "TechBlog & Random Knowledge"
 url                      : "https://dtpnk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/blog/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 #logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "/dev/ben/blog" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "/dev/dtpnk/blog" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "DevBen"
+  name             : "dtpnk"
   avatar           : "https://avatars3.githubusercontent.com/u/32763831"
   bio              : "just a guy, that does something with DevOps-, SRE- & System Engineering"
   location         : "Earth"
