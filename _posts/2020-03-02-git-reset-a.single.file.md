@@ -33,9 +33,9 @@ $ git checkout <OLD-COMMIT> <PATH-TO>/<FILE>
 
 # commit changes
 $ git commit --all
+```
 
-
-
+```bash
 # e.g.
 $ git checkout e421d7e0b0018fe5ed53be80d4c6fe9ce1XXXXXX .buildkite/pipeline.yml
 $ git commit --all
@@ -54,9 +54,9 @@ $ git rebase -i --autosquash master
 
 # force changes
 $ git push -f
+```
 
-
-
+```bash
 # e.g.
 $ git checkout e421d7e0b0018fe5ed53be80d4c6fe9ce1XXXXXX .buildkite/pipeline.yml
 $ git commit --all --fixup=a3d684cc558f46bffa30018154e66d123XXXXXX
