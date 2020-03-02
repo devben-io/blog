@@ -8,7 +8,7 @@ tags:
   - git
   - EN
 
-# excerpt: "by Year"
+# excerpt: "This is a HowTo for resetting a single `<FILE>` to a point of time of a `<OLD-COMMIT>`-ID."
 # header:
 #   teaser: /assets/images/unsplash-books-01-150.jpg
 #   overlay_image: /assets/images/unsplash-books-01-500.jpg
@@ -20,6 +20,8 @@ tags:
 ---
 ## Overview
 This is a HowTo for resetting a single `<FILE>` to a point of time of a `<OLD-COMMIT>`-ID.
+
+<!--more-->
 
 ## Prerequisite
 * git
