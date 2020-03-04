@@ -1,17 +1,58 @@
 name: Jekyll site CI
 
-on: [push]
+on: [pull_request]
+
 
 jobs:
-  build:
+  build-site:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
     # Build the site in the jekyll/builder container
-    - name: Build
+
+    - name: Modify path for docker build
+      if: github.event.pull_request.merged
+      run: |
+        echo 'rewrite path "/blog" to "/"'
+        sed -i 's/\:\ \"\/blog\/\"/\:\ \"\/\"/g' _config.yml 
+
+    - name: Build site
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+    - uses: actions/upload-artifact@v1
+      if: github.event.pull_request.merged
+      with:
+        name: _site
+        path: _site/
+
+
+  build-docker:
+    needs: build-site
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      if: github.event.pull_request.merged
+    - uses: actions/download-artifact@v1
+      if: github.event.pull_request.merged
+      with:
+        name: _site
+
+    - name: Build image & Publish to Registry
+      if: github.event.pull_request.merged
+      env:
+        SHA8: ${GITHUB_SHA::8}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+      uses: elgohr/Publish-Docker-Github-Action@master
+      with:
+        # <USER>/<REPO>/<DOCKER-IMAGE>
+        name: dtpnk/blog/docker-blog
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: docker.pkg.github.com
+        tags: "latest"
