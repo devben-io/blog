@@ -25,9 +25,11 @@ RUN apt-get update; \
 
 
 ARG DEBIAN_FRONTEN=noninteractive
+ARG AUTH="off"
+ARG AUTH_USER
 ARG AUTH_PW
 ENV FQDN="localhost"
-ENV AUTH="off"
+
 
 # Add nginx and project config files
 ADD rootfs /

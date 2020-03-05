@@ -1,6 +1,6 @@
 server {
     listen      80;
-    server_name ${FQDN};
+    # server_name ${FQDN};
     root   /usr/share/nginx/html;
     index  index.html index.htm;
 
@@ -28,9 +28,9 @@ server {
 
 }
 
-server {
-    listen      80;
-    server_name www.${FQDN};
+# server {
+#     listen      80;
+#     server_name www.${FQDN};
 
-    return 301 https://${FQDN}${DOLLAR}request_uri;
-}
+#     return 301 https://${FQDN}${DOLLAR}request_uri;
+# }
