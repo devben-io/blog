@@ -11,6 +11,6 @@ export DOLLAR
 rm /etc/nginx/conf.d/default.conf || :
 envsubst </etc/nginx/conf.d/default.conf.tpl >/etc/nginx/conf.d/default.conf
 
-echo "helloit:$(openssl passwd -apr1 $AUTH_PW)" >/etc/nginx/.htpasswd
+echo "$AUTH_USER:$(openssl passwd -apr1 $AUTH_PW)" >/etc/nginx/.htpasswd
 
 exec nginx -g "daemon off;"
